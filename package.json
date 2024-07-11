@@ -1,10 +1,10 @@
 {
   "name": "box-image-optimizer",
   "version": "1.0.0",
-  "description": "An Electron application with Svelte",
+  "description": "With this app you can optimize your images",
   "main": "./out/main/index.js",
-  "author": "example.com",
-  "homepage": "https://electron-vite.org",
+  "author": "TokyoTF",
+  "homepage": "https://github.com/TokyoTF/box-image-optimizer",
   "scripts": {
     "format": "prettier --plugin prettier-plugin-svelte --write .",
     "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
