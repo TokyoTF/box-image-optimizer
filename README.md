@@ -1,34 +1,13 @@
-# box-image-optimizer
+# Box Image Optimizer
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
-An Electron application with Svelte
+Made with: [electronjs](https://electronjs.org/) + [svelte](https://svelte.dev/) + [vitejs](https://vitejs.dev/)
 
-## Recommended IDE Setup
+Used Template [Electron Vite](https://electron-vite.org/)
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode)
+> [!WARNING]
+> I will be optimizing the code since it is all in App.svelte.
 
-## Project Setup
+With this app you can optimize your images 😢.
 
-### Install
-
-```bash
-$ npm install
-```
-
-### Development
-
-```bash
-$ npm run dev
-```
-
-### Build
-
-```bash
-# For windows
-$ npm run build:win
-
-# For macOS
-$ npm run build:mac
-
-# For Linux
-$ npm run build:linux
-```
+![image](https://github.com/TokyoTF/box-image-optimizer/assets/52444606/384bd824-49ce-407e-8f4e-fd247aea6c4c)
