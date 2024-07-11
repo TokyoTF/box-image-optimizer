@@ -1,7 +1,7 @@
 import { app, shell, BrowserWindow, ipcMain, dialog } from 'electron'
 import { basename, extname, join } from 'path'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
-import icon from '../../resources/icon.png?asset'
+import icon from '../../resources/logo.png?asset'
 import { copyFileSync, readdirSync, renameSync, statSync } from 'fs'
 import compress_image from 'compress-images'
 
@@ -13,6 +13,7 @@ function createWindow() {
     minHeight: 520,
     show: false,
     resizable: false,
+    icon:icon,
     //titleBarStyle: 'hidden',
     autoHideMenuBar: true,
     ...(process.platform === 'linux' ? { icon } : {}),
