@@ -1,9 +1,0 @@
-File from: [C:/Users/TokyoTF/Desktop/test-1G.png]
-
-File to: [C:/Users/TokyoTF/Desktop/tet/test-1G.png]
-
-Compression algorithm: [pngquant]
-
-Description: Error: Command failed: C:\Users\TokyoTF\Documents\Github\box-image-optimizer\node_modules\pngquant-bin\vendor\pngquant.exe 30 -o C:/Users/TokyoTF/Desktop/tet/test-1G.png C:/Users/TokyoTF/Desktop/test-1G.png
-  error: Not a PNG file (libpng failed)
-  error: cannot decode image Users\TokyoTF\Desktop\test-1G.png
