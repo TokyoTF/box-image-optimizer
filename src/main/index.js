@@ -7,13 +7,13 @@ import compress_image from 'compress-images'
 
 function createWindow() {
   const mainWindow = new BrowserWindow({
-    width: 900,
+    width: 980,
     height: 520,
-    minWidth: 900,
+    minWidth: 980,
     minHeight: 520,
     show: false,
     resizable: false,
-    icon:icon,
+    icon: icon,
     //titleBarStyle: 'hidden',
     autoHideMenuBar: true,
     ...(process.platform === 'linux' ? { icon } : {}),

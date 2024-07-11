@@ -204,7 +204,7 @@
               <td class="nowarp" placeholder={file.name}>{file.name}</td>
               <td class="nowarp-line">{file.ext}</td>
               <td class="nowarp-line">{calsize(file.size)}</td>
-              <td class="nowarp-line">{file.compress}</td>
+              <td class="nowarp-line">{file.compress ? 'completed' : 'wait'}</td>
               <button on:click={() => RemoveFile(index)}>delete</button>
             </tr>
           {/each}
