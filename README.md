@@ -1,4 +1,5 @@
-# Box Image Optimizer
+# Box Image Optimizer <img src="https://github.com/TokyoTF/box-image-optimizer/assets/52444606/e4798787-0e32-4615-a350-f2b2468f958b" width="40"/>
+
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
 Made with: [electronjs](https://electronjs.org/) + [svelte](https://svelte.dev/) + [vitejs](https://vitejs.dev/)
