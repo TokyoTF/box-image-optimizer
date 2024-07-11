@@ -1,0 +1,226 @@
+@import './base.css';
+
+.toast-container .st-toast-body {
+  display: flex;
+  align-items: center;
+}
+
+.toast-container button[data-notification-btn] {
+  background: transparent;
+  border: none;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+table {
+  min-width: 75%;
+  height: 90vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: block;
+}
+
+table thead {
+  top: 0;
+  background: white;
+  position: sticky;
+}
+
+thead th {
+  text-align: start;
+}
+
+tbody {
+  max-height: 400px;
+  overflow: auto;
+}
+
+tbody tr td.nowarp {
+  width: 350px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  overflow: hidden;
+}
+
+.input-checkbox {
+  top: 1.5px;
+  position: relative;
+}
+
+tbody tr td.nowarp-line {
+  text-wrap: nowrap;
+}
+
+main {
+  padding: 12px;
+}
+
+.warp-flex {
+  display: flex;
+}
+
+.warp-column {
+  flex-direction: column;
+}
+
+.warp-bt {
+  justify-content: space-between;
+}
+
+.warp-list {
+  gap: 5px;
+}
+
+.barline {
+  width: 100%;
+  height: 25px;
+  -webkit-app-region: drag;
+  background-color: #40A2E3;
+}
+
+.btn-ctn-style-p {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+label[for="selectedall"] {
+  display: flex;
+  align-items: center;
+}
+
+
+.btn-ctn-style {
+  height: 30px;
+  display: flex;
+  gap: 5px;
+  padding-right: 5px;
+  justify-content: center;
+  border-radius: 5rem;
+  background: #40A2E3;
+}
+
+.btn-ctn-style .btn-ctn-icon {
+  width: 30px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5rem;
+  background-color: #4DB8FF;
+}
+
+.btn-ctn-icon svg {
+  stroke: white;
+}
+
+.btn-ctn-style button {
+  border: none;
+  font-size: 14px;
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+
+.right-menu {
+  width: 220px;
+  height: fit-content;
+  padding: 10px;
+  box-shadow: 0px 0px 8px 2px #00000033;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+
+.folder-save {
+  height: 30px;
+  border-radius: 5rem;
+  background-color: #40A2E3;
+}
+
+.folder-save button {
+  width: fit-content;
+  border: none;
+  border-radius: 5rem;
+  padding: 5px;
+  background-color: #4DB8FF;
+}
+
+.folder-save input {
+  border: none;
+  padding: 5px 0px 5px 10px;
+  color: white;
+  background-color: transparent;
+}
+
+.start-op {
+  width: fit-content;
+  padding: 5px 25px;
+  border: none;
+  color: white;
+  border-radius: 5rem;
+  background-color: #40A2E3;
+}
+
+.start-op:disabled {
+  background-color: #307aab;
+}
+
+.btn-ctn-ricon {
+  border-radius: 5rem;
+}
+
+.btn-ctn-ricon svg {
+  stroke: white;
+}
+
+.rspace {
+  height: 10px;
+  margin: 0px 5px;
+}
+
+
+span.subtitle {
+  color: #40A2E3;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: underline;
+  text-decoration-color: #40A2E3;
+  text-underline-offset: 2px;
+}
+
+.gap-input {
+  gap: 5px;
+}
+
+.center-input {
+  justify-content: center;
+}
+
+.center-inputs {
+  justify-content: center;
+  align-items: center;
+}
+
+.input-title {
+  text-transform: capitalize;
+  color: #40A2E3;
+}
+
+
+.subrange {
+  margin-left: auto;
+  color: #40A2E3;
+}
+
+.input-select-style {
+  background: #40A2E3;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5rem;
+}
